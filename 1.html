@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color:pink;
+      padding-top: 50px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .game-button {
+      display: block;
+      margin: 20px auto;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: palevioletred;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: 250px;
+    }
+
+    .game-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Game Player</h1>
+  <p><b>Select a game to play</p>
+
+  <button class="game-button" onclick="location.href='rps/rps.html'">🪨 Rock Paper Scissors</button>
+  <button class="game-button" onclick="location.href='ttt/ttt.html'">❌ Tic Tac Toe</button>
+
+</body>
+</html>

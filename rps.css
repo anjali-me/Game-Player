@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  padding-top: 50px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.choice {
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #fff;
+  width: 100px;
+}
+
+#rps-msg {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px;
+  color:black;
+  font-size:30px;
+}
